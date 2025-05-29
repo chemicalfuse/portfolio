@@ -8,6 +8,8 @@ import "react-multi-carousel/lib/styles.css";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Banner from "./components/Banner";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
       <Banner></Banner>
       <Skills></Skills>
       <Projects></Projects>
+      <Contact></Contact>
+      <Footer></Footer>
     </Router>
   );
 };
